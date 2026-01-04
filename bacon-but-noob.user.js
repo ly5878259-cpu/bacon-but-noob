@@ -15,6 +15,7 @@
 // @match        *://*.*.*/*?iwantreferrer=*
 // @updateURL    https://raw.githubusercontent.com/ly5878259-cpu/bacon-but-noob/main/bacon-but-noob.user.js
 // @downloadURL  https://raw.githubusercontent.com/ly5878259-cpu/bacon-but-noob/main/bacon-but-noob.user.js
+// icon          c:\Users\E450\OneDrive\Pictures\Screenshots\Screenshot 2025-11-23 150534.png
 // @grant        none
 // ==/UserScript==
 
@@ -132,3 +133,4 @@
   if (document.readyState === 'complete') main();
   else window.addEventListener('load', main);
 })();
+
